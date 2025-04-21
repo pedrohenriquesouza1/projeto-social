@@ -29,3 +29,33 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+#tela {
+    position: relative;
+    top: 80px;
+    left: 20px;
+    border: none;
+    height: 471px;
+    width: 269px;
+}
+#redes-sociais {
+    width: 100px;
+    text-align: right;
+    position: fixed;
+
+    left: 94%;
+}
+#redes-sociais a img {
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    display: block;
+    box-shadow: 3px 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+#redes-sociais img:hover {
+    border: 2px solid rgba(237, 237, 237, 0.727);
+    transform: translate(-5px, -8px);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.3);
+    transition-duration: .8s;
+}
