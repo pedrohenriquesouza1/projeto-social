@@ -39,10 +39,9 @@ main {
     width: 269px;
 }
 #redes-sociais {
-    width: 100px;
+    max-width: 100px;
     text-align: right;
     position: fixed;
-
     left: 94%;
 }
 #redes-sociais a img {
